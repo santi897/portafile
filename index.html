@@ -3,10 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dising.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin-left:12%;
+            margin-right:12%;
+            background-color: antiquewhite;
+            font-family: 'Raleway', sans-serif;
+            font-size: 10px;
+        }
+
+         nav {
+
+            display: flex;
+            justify-content: center;
+        }
+
+        ul{
+            padding-left:0;
+            display: flex; 
+            justify-content:space-between;
+            width: 90%;
+        }
+
+        li{
+            list-style: none;
+            margin:10px;
+        }
+
+        a{
+            color: #1fdc6d;
+            text-decoration: none;
+        }
+        section{
+            margin-left: 12%;
+            text-align: center;
+            align-items: center; 
+        }
+        .button{
+            color: rgb(43, 226, 220);
+            padding: 5px 5px;
+            border: none;
+            border: 2px solid #2fa7db;
+            cursor: pointer;
+
+        }
+
+        @media screen and (min-width: 700px)
+            {
+
+        }
+    </style>
 </head>
 <body>
-    <nav>
+    <nav class="nav">
         <ul>
             <li><a href="">Home</a>
             </li>
@@ -17,7 +71,7 @@
             <li><a href="">skills</a>
             </li>
             <li>
-                <a href=""></a>
+                <a href="">projects</a>
             </li>
 
             <li><a href="">Contact</a>
@@ -26,7 +80,7 @@
     </nav>
     <section>
         <p>Hello My name is <div>Yair</div>I am Developer</p>
-        <a href="">More about me</a>
+        <a class="button" href="">More about me</a>
     </section>
     <section>
         <h2>About me</h2>
